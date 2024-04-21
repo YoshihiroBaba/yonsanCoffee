@@ -1,0 +1,148 @@
+.my-post h2,
+.editor-styles-wrapper .is-root-container h2 {
+    font-size: 1.625em;
+    font-weight: bold;
+    /* font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; */
+    color: #2C3639;
+    @media screen and (max-width: 550px) {
+        font-size: 1.425em;
+    }
+}
+
+.my-post h3,
+.editor-styles-wrapper .is-root-container h3{
+    font-weight: bold;
+    font-size: 1.375em;
+    position: relative;
+    height: 28px;
+    padding-left: 14px;
+    padding-top: 2px;
+    /* font-family: "Yu Gothic", "游ゴシック","Hiragino Sans", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; */
+    color: #2C3639;
+    @media screen and (max-width: 550px) {
+        font-size: 1.2em;
+        height: 26px;
+    }
+}
+
+.my-post h3::before,
+.editor-styles-wrapper .is-root-container h3::before{
+    content: "";
+    height: 100%;
+    width: 4px;
+    background-color: #2C3639;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.my-post p,
+.editor-styles-wrapper .is-root-container p{
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* height: 60px; */
+    line-height: 1.5em;
+    /* font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif; */
+    color: #2C3639;
+    @media screen and (max-width: 550px) {
+        font-size: 0.9em;
+    }
+}
+
+.my-post li,
+.editor-styles-wrapper .is-root-container li{
+color: #2C3639;
+font-weight: 500;
+line-height: 1.4em;
+position: relative;
+margin-bottom: 3px;
+margin-left: 46px;
+list-style: none;
+@media screen and (max-width: 550px)  {
+font-size: 0.9em;
+line-height: 1.2em;
+}
+}
+
+.my-post li,
+.editor-styles-wrapper .is-root-container li{
+    max-width: 558px;
+}
+
+
+.my-post li::before,
+.editor-styles-wrapper .is-root-container li::before {
+content: "";
+width: 11px;
+height: 11px;
+background: #A27B5C;
+border-radius: 50%;
+position: absolute;
+top: 5px;
+left: -32px;
+}
+@media screen and (max-width: 550px) {
+.l-notice-detail__list > p::before {
+left: -22px;
+}
+}
+
+.my-post a,
+.editor-styles-wrapper .is-root-container a{
+color: #A27B5C;
+text-decoration: underline;
+font-weight: 500;
+margin-top: 30px;
+display: inline-block;
+}
+.my-post .wp-block-read-more,
+.editor-styles-wrapper .is-root-container .wp-block-read-more{
+text-decoration: underline;
+}
+
+.my-post .wp-block-quote,
+.editor-styles-wrapper .is-root-container .wp-block-quote{
+    width: 100%;
+    min-height: 60px;
+    background-color: #F8F8F8;
+    padding-top: 27px;
+    padding-left: 74px;
+    padding-right: 26px;
+    padding-bottom: 27px;
+    margin-top: 30px;
+    position: relative;
+}
+.my-post .wp-block-quote p,
+.editor-styles-wrapper .is-root-container .wp-block-quote p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.my-post .wp-block-quote::before,
+.editor-styles-wrapper .is-root-container .wp-block-quote::before{
+    content: '“';
+    font-size: 5.625em;
+    font-weight: 500;
+    color: #B4B4B4;
+    width: 46px;
+    height: 45px;
+    margin-right: 11px;
+    padding-top: 0;
+    position: absolute;
+    left: 17px;
+    top: 16px;
+}
+
+.my-post .wp-block-image,
+.editor-styles-wrapper .is-root-container .wp-block-image{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+.my-post .wp-block-image img,
+.editor-styles-wrapper .is-root-container .wp-block-image img{
+    object-fit: cover;
+}
